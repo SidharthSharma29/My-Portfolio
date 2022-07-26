@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+        /* background: linear-gradient(#2b1055,#7597de); */
+        background-color: #000000;
+    }
+    
+
+.navbar{
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:25px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-attachment: fixed; */
+    position:fixed;
+    background-color:rgba(72, 61, 61, 0.442);
+    }
+    
+    .navbar .logo{
+        color: #fff;
+        font-weight: 700;
+        text-decoration: none ;
+        font-size: 2em;
+        text-transform: uppercase ;
+    }
+    
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar ul li{
+        list-style: none;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    
+    .navbar ul li a{
+        text-decoration: none;
+        padding: 6px 15px;
+        color: #fff;
+        border-radius: 20px;
+    }
+    
+    .navbar ul li a:hover
+    
+    {
+        background: #fff;
+        color: #2b1055;
+    }
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('2.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:fixed;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 5rem;
+}
+.hero_desc {
+    margin-top: 10px;
+    font-size: 2.5rem;
+}
+.hero-text {
+    text-align: center;
+    margin-top:70px;
+    color: rgba(255, 255, 255, 0.936);
+}
+
+.btn {
+     display: flex;
+    margin: auto;
+    background-color: #fff;
+    color: #000000;
+    box-shadow:3.5px 3.5px #fc00ff;
+    /* box-shadow: 3px 3px purple,-1em 0.4em greenyellow; */
+    opacity:0.85; 
+    font-size: 1.8rem;
+  padding: 20px 60px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+    
+}
+
+.main {
+    /* background-color: #131313; */
+    background: #000000;
+    padding: 10rem 0;
+  }
+  
+  .main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+  }
+
+  
+  
+  .main__content {
+    color: #fff;
+    width: 100%;
+  }
+  
+  .main__content h1 {
+    font-size: 3rem;
+    background-color: #fe3b6f;
+    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+  
+  .main__content p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  
+  .main__img--container {
+    text-align: center;
+  }
+  
+  .main__img--card {
+    margin: 10px;
+    height: 450px;
+    width: 450px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    margin-left: 110px;
+    margin-top: 80px;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  }
+  
+  .fa-layer-group,
+  .fa-users {
+    font-size: 14rem;
+  }
+  
+  #card-2 {
+    background: #ff512f;
+    background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
+    background: linear-gradient(to right, #dd2476, #ff512f);
+  }
+
+  .skills{
+    color: aliceblue;
+    margin-top:12px;
+    margin-bottom:12px;
+    border: 8px double aliceblue;
+    height:70vh;
+}
+.me{
+    margin-top:25px;
+    text-align: center;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.line1{
+    margin-bottom:30px;
+    background-color:rgb(212, 45, 212);
+    width:70vh;
+    height:20px;
+}
+#line1{
+    background-color:aquamarine;
+    width:82%;
+    height:20px;
+}
+#line2{
+    background-color:aquamarine;
+    width:78%;
+    height:20px;
+}
+#line4{
+    background-color:aquamarine;
+    width:68%;
+    height:20px;
+}
+#line3{
+    background-color: aquamarine;
+    width: 73%;
+    height:20px;
+}
+
+#skl{
+    text-align: center; 
+    font-size:30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#marker{
+    display:block;
+    margin-right:60px;
+    margin-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#mkr{
+    /* margin-top:55px; */
+    margin-right:20px;
+    font-size:20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+#hobbies{
+    display: flex;
+    justify-content:space-around;
+
+}
+.hobbies_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.hb{
+    color: #fff;
+    margin-left: 45vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    font-size: 4vh;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin-bottom: 20px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #ad72a0;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+footer{
+    background-color:black ;
+    color:aliceblue;
+    text-align: center;
+    padding-left: 10px;
+    padding-right:10px;
+    border:5px double white;
+}
+#foot{
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size: 25px;
+    padding-left: 30px;
+    
+}
+.social__icon--link {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+    }
+    
